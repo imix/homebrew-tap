@@ -5,16 +5,16 @@ class Rpnpad < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/imix/rpnpad/releases/download/v0.2.3/rpnpad-aarch64-apple-darwin.tar.xz"
-      sha256 "b00336eeafac2ae5b6ad135f4e848c777c06b0f3b47400b7ec43f5126c66cd13"
+      sha256 "babba2ccfea426b4f365999db10205576c67ef394102f23a086c61737ca7fff3"
     end
     if Hardware::CPU.intel?
       url "https://github.com/imix/rpnpad/releases/download/v0.2.3/rpnpad-x86_64-apple-darwin.tar.xz"
-      sha256 "8ad0f4019fde745a314398f2608de4878f55e899203069df5cb003164d5feb1c"
+      sha256 "d6c5b9ec3eea3cf1f6cc58b45d6dd9a979df94005567fbab71ac703ccf6792a1"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/imix/rpnpad/releases/download/v0.2.3/rpnpad-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "1c2dae146d3fed5d766ea72d95e52207401364092b4cfbc1bdd4b6f3350cd1c9"
+    sha256 "1a19c827b340e3422763fb73bb484aaa6ec580722728342e6d3e749b4b9f2655"
   end
   license "MIT"
 
