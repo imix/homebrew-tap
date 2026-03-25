@@ -1,20 +1,20 @@
 class Rpnpad < Formula
   desc "An HP48-style RPN calculator for the terminal"
   homepage "https://github.com/imix/rpnpad"
-  version "0.2.6"
+  version "0.2.7"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/imix/rpnpad/releases/download/v0.2.6/rpnpad-aarch64-apple-darwin.tar.xz"
-      sha256 "7ec334fe2ff031d2610fd4fb5b4dd295e696fca2051a292d36151bad6577359e"
+      url "https://github.com/imix/rpnpad/releases/download/v0.2.7/rpnpad-aarch64-apple-darwin.tar.xz"
+      sha256 "d57d85cc29fb8a5c0abc72095c0973b7870606230a3f1ba8eea01e13f585782f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/imix/rpnpad/releases/download/v0.2.6/rpnpad-x86_64-apple-darwin.tar.xz"
-      sha256 "1880c9b183d8c2a94083e8a296e45b281802e93d7d7fbebf22fb43eef8c86d7c"
+      url "https://github.com/imix/rpnpad/releases/download/v0.2.7/rpnpad-x86_64-apple-darwin.tar.xz"
+      sha256 "f1b909f6eed7736074650d6f4830e2b3156e17a45e151745f4246e6ae429d702"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/imix/rpnpad/releases/download/v0.2.6/rpnpad-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "a445ba39b05bc37f104ffae17337a3510589181d98a39d69815393bf8b371b4e"
+    url "https://github.com/imix/rpnpad/releases/download/v0.2.7/rpnpad-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "31f91b430c01c2d3b23fce64dfe84be3c8fbe628526c9c3f165265cac0df2e2f"
   end
   license "MIT"
 
