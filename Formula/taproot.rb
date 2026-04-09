@@ -1,9 +1,9 @@
 class Taproot < Formula
   desc "AI-driven specs, enforced at commit time"
   homepage "https://github.com/imix/taproot"
-  url "https://github.com/imix/taproot/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "3d1e4426973d3abc673211fd9d07ac548e6b3dd4bdf01842aba8ec14e5a977a1"
-  version "1.0.0"
+  url "https://github.com/imix/taproot/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "688cd69458dd8f0b652458a8d3369ace7eb3143b7962a9a30c5bb1a3f85ea9a4"
+  version "1.1.0"
   license "MIT"
 
   depends_on "node"
